@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+.barranav{
+    width: 100%; display: inline-flex; align-items: center; padding: 2rem; background: linear-gradient(135deg, rgb(164, 11, 211), rgb(200, 100, 0));
+}
+.barranav a{
+    text-decoration: none; color: rgb(0, 0, 0);
+}
+.logo{
+    display: inline-flex; justify-content: space-between; padding-inline-start: .5rem;
+}
+.logo *{
+    font-family: Arial, Helvetica, sans-serif; font-weight: 100; font-size: 1.2em; margin-block: 0; margin-inline: .5rem;
+}
+.barra-de-busqueda{
+    margin-left: auto; float: inline-end; padding-right: 3rem;
+}
+.main{
+    height: 100%; justify-content: center; text-align: -webkit-center;
+}
+.divtitulo{
+    border-radius: 4rem ; width: 60rem; background: linear-gradient(135deg, rgb(164, 11, 211), rgb(200, 100, 0)); padding: .5rem; text-align: center;
+}
+.titulo{
+    font-size: 2em; font-weight: 500; color: #ffff;
+}
+.divdistros{
+    padding-top: 1rem; padding-left: 5rem; padding-right: 5rem; text-align: center;
+}
+.distro{
+    display: inline-flex; align-items: center; border: solid grey 1px; border-radius: 1rem; margin-bottom: 2rem;
+}
+.distro h3{
+    margin-left: 2rem;
+}
+.distro p{
+    width: 40rem; margin-left: 2rem;
+}
+.img-distro{
+    border-radius: .2rem; width: 10rem;
+}
